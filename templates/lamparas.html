@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lamparas</title>
+    <link rel="stylesheet" href="static\css\style.css">
+</head>
+<body>
+    <h1>Selecciona la cantidad de lamparas que hay en tu hogar</h1>
+
+    <ul>
+        {% for i in range (1,8) %}
+
+        <li><a href="/{{size_home}}/{{i}}">Tengo {{i}} lamparas</a> </li>
+        
+        {%  endfor  %}
+
+
+
+    </ul>
+</body>
+</html>

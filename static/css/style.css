@@ -1,0 +1,25 @@
+body {
+    font-family:"Arial, Helvetica, san-sherif" ;
+    background-color:rgb(207, 253, 203);
+
+}
+h1{
+    color: rgb(43, 73, 52);
+    text-align: center;
+    font-size: 50px;
+}
+   
+
+form {
+    max-width:  600px; 
+    margin: 20px auto;
+    padding: 20px;
+    background-color:rgb(191, 218, 193);
+    border:1px solid rgb(223, 191, 191);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+label{
+    display:block;
+    margin-top: 10px;
+    border-radius: 10px;
+}
